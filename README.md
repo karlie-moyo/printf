@@ -1,6 +1,6 @@
 # Print F
+![image](https://github.com/user-attachments/assets/4799580b-b689-4302-a539-5a6ab9a6293f)
 
-![image](https://github.com/user-attachments/assets/4098ea41-4049-4d42-9dd4-5a5401dc234b)
 
 
 <img alt="coding" width="784" height="350" src="https://github.com/Karlie-crypto/alx-system_engineering-devops/blob/master/new.png" />
