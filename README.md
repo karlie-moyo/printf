@@ -1,8 +1,5 @@
 # Print F
 
-![image](https://github.com/user-attachments/assets/604ad7a1-e3d6-45c5-b0d5-4f1bdc132d9c)
-
-
 <img alt="coding" width="784" height="350" src="https://github.com/Karlie-crypto/alx-system_engineering-devops/blob/master/new.png" />
 
 | PR.NO | PROJECT                                                                           | DESCRIPTION |
@@ -18,6 +15,7 @@
 | 7 | [Size](7-size.c)                                                      | The get_size function calculates the size to cast the argument based on the formatted string, updating the index i accordingly.                         |
 | 8 |  [Width](./8-width.c/)                                                                             | The get_width function calculates the width for printing based on the formatted string and the list of arguments, updating the index i accordingly.  |
 
+The files collectively define functions for handling various types of formatted output in a custom printf-like implementation. They include functions to print different data types (e.g., characters, strings, integers, unsigned numbers, binary, hexadecimal), handle flags, precision, width, and size formatting, and perform special formatting operations like printing pointers, non-printable characters, and strings in reverse or ROT13. The utility functions like get_flags, get_precision, get_size, and get_width process the format string and arguments to determine the appropriate formatting options for each print operation. These functions utilize buffers and flags to format and print the results accordingly.
 # Write your own printf function.
 
 ### Authorized functions and macros
