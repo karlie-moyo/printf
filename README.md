@@ -14,8 +14,10 @@
 | 6 | [Precision](./6-precision.c/)                                         | The get_precision function calculates the precision for printing based on a formatted string and a list of arguments, updating the index i accordingly.             |
 | 7 | [Size](7-size.c)                                                      | The get_size function calculates the size to cast the argument based on the formatted string, updating the index i accordingly.                         |
 | 8 |  [Width](./8-width.c/)                                                                             | The get_width function calculates the width for printing based on the formatted string and the list of arguments, updating the index i accordingly.  |
-
+| 9 | [Handle Print](./9-handle_print.c/)                                                |The handle_print function prints arguments based on their type by matching format specifiers to corresponding print functions, and handles unknown specifiers by printing a % or adjusting based on width and spaces.|
+| 0 |  [Main Header](./main.h/)                                                            | The header file defines macros, constants, and function prototypes for a custom implementation of the _printf function, supporting various format specifiers to print different data types, such as characters, strings, numbers, and memory addresses, with additional functionalities like width, precision, and flags handling. |
 The files collectively define functions for handling various types of formatted output in a custom printf-like implementation. They include functions to print different data types (e.g., characters, strings, integers, unsigned numbers, binary, hexadecimal), handle flags, precision, width, and size formatting, and perform special formatting operations like printing pointers, non-printable characters, and strings in reverse or ROT13. The utility functions like get_flags, get_precision, get_size, and get_width process the format string and arguments to determine the appropriate formatting options for each print operation. These functions utilize buffers and flags to format and print the results accordingly.
+
 # Write your own printf function.
 
 ### Authorized functions and macros
